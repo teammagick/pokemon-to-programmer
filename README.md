@@ -2,11 +2,21 @@
 
 ![Pokémon to Programmer cover](%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%9B%E0%B8%812.jpg)
 
-**Learn Python from the beginning, one executable example at a time.**
+**Evolve from a complete beginner into a confident programmer—one lesson, experiment, and challenge at a time.**
 
-Pokémon to Programmer is a beginner-friendly collection of Python lessons in **Jupyter notebooks**. The learning material is available in English. Open the notebooks, read a concept, run its examples, and change the code to see how Python behaves. No programming experience is required.
+**Pokémon to Programmer** is a Pokémon-inspired **programming education repository**. The name captures its learning philosophy: begin your journey as a novice, master new skills through practice, and gradually "evolve" into a capable programmer. The emphasis is on real programming knowledge, hands-on experimentation, and steady improvement.
 
-> **What this repository is:** Two introductory Python lesson notebooks with short exercises and examples. It is not currently an installable Pokémon game, an automated course platform, or a complete advanced-Python curriculum.
+The current learning material consists of **two Python 3 Jupyter notebooks**, translated into English. These lessons form the starting point of the journey, introducing core Python concepts through short, runnable examples. You can study without prior programming experience.
+
+### Learning philosophy
+
+- **Start from zero:** Concepts are introduced in small, approachable steps.
+- **Learn by doing:** Execute real code, inspect the output, and change examples to test your understanding.
+- **Build mastery progressively:** Treat each new topic as a skill to practice before moving forward.
+- **Put skills to use:** Apply lessons through small challenges and self-directed projects.
+- **Keep evolving:** Use the fundamentals here as a foundation for increasingly complex programming topics.
+
+The long-term goal is a learning path from **beginner to advanced programming**. The two notebooks currently present cover the introductory Python stage; further lessons, guided projects, or advanced topics can extend this foundation.
 
 ## Quick start: Google Colab (no installation)
 
@@ -62,7 +72,7 @@ jupyter lab
 
 JupyterLab should open in your browser. Select `Python_1_lecture_code.ipynb`, choose the Python 3 kernel if prompted, and execute cells with **Shift + Enter**. Later, open `Python_2_lecture_code.ipynb`. To stop JupyterLab, return to the terminal and press **Ctrl + C**. To leave the virtual environment, run `deactivate`.
 
-## Learning path
+## Learning path: your first evolution steps
 
 | Order | Notebook | Topics |
 | --- | --- | --- |
@@ -71,7 +81,7 @@ JupyterLab should open in your browser. Select `Python_1_lecture_code.ipynb`, ch
 
 The notebooks are designed to be read **in order**. Each code cell is a small demonstration, and some later cells depend on variables created earlier. If a cell reports that a variable is undefined, run the preceding cells or restart the kernel and use **Run All**.
 
-## How to study effectively
+## Training method: how to study effectively
 
 1. **Predict:** Before running a cell, guess what it will display.
 2. **Execute:** Press Shift + Enter and compare the output with your prediction.
@@ -79,7 +89,7 @@ The notebooks are designed to be read **in order**. Each code cell is a small de
 4. **Explain:** Say what changed and why. Consult the official [Python tutorial](https://docs.python.org/3/tutorial/) when a concept is unfamiliar.
 5. **Practice:** Make your own copy or add a new cell and solve a small variation without looking at the original.
 
-### Practice challenges
+### Training challenges
 
 - **After Lesson 1:** Print a trainer name, calculate the cost of three Poké Balls, and use Boolean expressions to check whether a trainer meets a chosen level requirement.
 - **After Lesson 2:** Store Pokémon names in a list, add a new name with `append()`, use a set to eliminate duplicates, and build a dictionary mapping each Pokémon name to a level.
@@ -128,4 +138,4 @@ After completing both notebooks, continue with the official [Python tutorial](ht
 
 ---
 
-**Pokémon to Programmer** is an educational Python notebook collection. Pokémon is a trademark of its respective owners; this project is an independent learning resource and is not presented as an official Pokémon product.
+**Pokémon to Programmer** is an independent, Pokémon-inspired educational project focused on learning to program. Pokémon is a trademark of its respective owners; this learning resource is not affiliated with or endorsed by the Pokémon rights holders.
